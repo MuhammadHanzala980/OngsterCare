@@ -1,0 +1,70 @@
+.inputGroup {
+  padding: 10px 0px;
+  border: 1.5px solid #ebebeb;
+  margin: 20px 0px !important ;
+  background: white;
+}
+
+.main {
+  background: #f2f5f7;
+}
+
+.input {
+  border: none;
+  width: 99%;
+  margin: 0px 5px;
+  outline: none;
+  font-size: 18px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+
+.label {
+  padding: 0px 7px;
+  font-size: 14px;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.heading {
+  font-weight: 400;
+}
+
+.text {
+  font-size: 21px;
+  text-align: center !important;
+}
+
+.content {
+  height: 163px;
+  padding: 33px 0px 11px;
+}
+
+.optCards {
+  box-shadow: 0px 4px 8px 1px #80808098;
+  text-align: center;
+  background: white;
+  margin: 2em 0px !important;
+}
+
+.tegBox {
+  min-height: 81px;
+  background: #1ec1e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.teg {
+  font-size: 16px;
+  color: white;
+  padding: 0px 8px;
+}
+
+.cardContainer {
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;
+}

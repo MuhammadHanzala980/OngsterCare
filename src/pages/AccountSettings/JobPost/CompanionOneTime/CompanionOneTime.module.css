@@ -1,0 +1,89 @@
+.inputGroup {
+  padding: 10px 0px;
+  border: 1.5px solid #ebebeb;
+  margin: 20px 0px !important ;
+  background: white;
+}
+
+.main {
+  background: #f2f5f7;
+}
+
+.input {
+  border: none;
+  width: 99%;
+  margin: 0px 5px;
+  outline: none;
+  font-size: 18px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+
+.label {
+  padding: 0px 7px;
+  font-size: 14px;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.heading {
+  font-weight: 400;
+}
+
+.text {
+  font-size: 21px;
+  text-align: center !important;
+}
+
+.bg {
+  width: 100%;
+  background: linear-gradient(120deg, #00000069, #2c374de6), url("../Images/bg.svg"), no-repeat;
+  background-size: cover;
+  min-height: 512px;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  color: #fffffff5;
+}
+
+.group {
+  background-color: white;
+  padding: 60px;
+}
+
+.card {
+  text-align: center;
+}
+
+.cardSec {
+  position: relative;
+}
+
+.btnGrp {
+  width: 360px;
+  margin: auto;
+  padding: 25px 50px;
+  border: 1px solid;
+  position: relative;
+  top: -8em;
+  background: white;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid;
+  border-radius: 30px;
+}
+
+.btn {
+  border-radius: 30px;
+  width: 50%;
+}

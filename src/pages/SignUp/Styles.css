@@ -1,0 +1,96 @@
+.page-slider {
+  background-image: url('./sidepanel.png' );
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+}
+
+.page-slider1 {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+}
+.slider > div {
+  height: 100vh;
+}
+.head-div {
+  margin: 0;
+  padding-bottom: 7px;
+  position: relative;
+  border-bottom: 2px solid grey;
+}
+.head-div:before {
+  position: absolute;
+  background: #a2deed;
+  height: 3px;
+  content: "";
+  width: 20%;
+  bottom: -2px;
+  left: 0;
+}
+.w-20 {
+  width: 20%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-60 {
+  width: 60%;
+}
+
+.andar button {
+  width: 100%;
+  padding: 0.8rem 1rem;
+}
+.for-button {
+  padding: 0.8rem 1rem !important;
+}
+.gender-active {
+  border: 2px solid #a2deed !important;
+}
+.gender {
+  padding: 0.8rem;
+  width: 40%;
+  text-align: center;
+}
+.btn-flat2 {
+  background-color: #28ace2;
+  color: white;
+}
+.btn-flat2:hover {
+  background-color: #28ace280;
+  color: white;
+}
+.blowtxt {
+  color: grey;
+  font-size: 14px;
+  padding: 1rem;
+}
+
+.OR {
+  width: 15%;
+  text-align: center;
+  border-bottom: 1px solid #b5b5b5;
+  line-height: 0.1em;
+  margin: 10px 12px 25px;
+}
+.OR span {
+  padding: 0 10px;
+}
+.btn-flat1 {
+  background-color: white;
+  border: 1px solid #28ace2;
+  color: black;
+}
+.btn-flat1:hover {
+  background-color: #a2deed;
+  color: white;
+}
+
+#photo_id {
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+}

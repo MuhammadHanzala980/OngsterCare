@@ -1,0 +1,253 @@
+html,
+body {
+  overflow-x: hidden;
+  padding: 0 !important;
+  margin: 0;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: auto;
+} */
+
+/* media desktop start*/
+
+@media screen and (min-width: 830px) {
+  .social-row {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .inner-main {
+    background-color: white;
+    border-radius: 8px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  /* screen3 */
+  .page-slider {
+    background-size: 40% auto;
+    background-position: left top;
+  }
+  /* .footer-thing {
+    margin-top: 10vh;
+  } */
+  .main-content {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .in-input-btn {
+    position: relative;
+    bottom: 44px;
+    left: 49vw;
+    width: 10%;
+  }
+  .help-in-multiple {
+    position: relative;
+    bottom: 48px;
+    right: -50vw;
+  }
+
+  .mstep1 {
+    padding-right: 2rem;
+    border-right: 1px solid #d4d4d4;
+  }
+
+  .headbar2 {
+    height: 60px;
+  }
+  .result-found {
+    width: 50%;
+  }
+}
+
+/* media desktop end*/
+
+/* media mobile start */
+
+@media screen and (max-width: 830px) {
+  .font-ssmall {
+    font-size: small !important;
+  }
+
+  .social-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-mid {
+    margin-top: -1rem !important;
+  }
+  .navbar-nav {
+    display: flow-root;
+  }
+
+  .banner {
+    top: -70px !important;
+    left: 8px !important;
+    font-size: 8px;
+  }
+  .h1 {
+    font-size: 1.4rem;
+  }
+
+  /* screen2 */
+  .main > div {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .upper-main {
+    width: 100% !important;
+    font-size: xx-small !important;
+    padding: 1rem !important;
+  }
+  .w-40 {
+    width: 47% !important;
+  }
+  .dropdown-class {
+    display: block !important;
+  }
+  .dropdown-class div {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+
+  /* screen3 */
+  .page-slider {
+    background-size: 100%;
+    background-position: center;
+  }
+  .main-content {
+    margin: 2rem 0;
+    width: 100% !important;
+    /* background-color: #ffffffb0; */
+    background-color: #ffff;
+  }
+  .for-resp {
+    display: block !important;
+    width: 100%;
+  }
+  .for-resp-2 {
+    display: block;
+    width: 40% !important;
+    margin: 0 auto;
+  }
+  .andar {
+    width: 90%;
+  }
+  .padding-resp {
+    padding: 1rem;
+  }
+
+  .dropdown-resp {
+    width: 100% !important;
+  }
+  .in-input-btn {
+    position: relative;
+    bottom: 44px;
+    left: 76vw;
+  }
+
+  .help-in-multiple {
+    position: relative;
+    bottom: 48px;
+    right: -82vw;
+  }
+  .conjusted-fix {
+    -webkit-writing-mode: vertical-lr;
+  }
+  .result-found {
+    width: 100%;
+    flex-direction: column;
+  }
+  /* .centerimg, .premium-btn{
+    background-color: #28ace2;
+    display: flex;
+    justify-content: center;
+  } */
+  /* .premium-center{
+     display: flex;
+     justify-self: center;
+   } */
+  .box-height {
+    height: auto;
+  }
+  .mb {
+    bottom: 10px;
+  }
+  .mb2 {
+    top: 100px;
+  }
+  .mb3 {
+    top: 130px;
+  }
+  .dropwidth {
+    width: 30%;
+  }
+}
+
+/* media mobile end */
+
+.result-found {
+  padding: 1rem 0.5rem 0rem;
+}
+.premium-btn {
+  position: absolute;
+  left: 35px;
+  bottom: 10px;
+}
+
+.blue-text {
+  color: #28ace2;
+}
+
+.pink-text {
+  color: #fc3480;
+}
+
+p {
+  margin: 0;
+}
+.size-13px {
+  font-size: 13px;
+}
+.gender-active {
+  border: 2px solid #a2deed !important;
+}
+/* chat start */
+.chat-receive {
+  width: 50%;
+  background: #f4a7af26;
+  border-radius: 1px 10px 10px;
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+.chat-input {
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  width: 80%;
+  border-radius: 0;
+  padding: 1.5rem;
+}
+
+.chat-btn {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  width: 20%;
+  border-radius: 0;
+  padding: 12px;
+}
+/* chat end */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-pointer:hover {
+  color: #28ace2;
+}
